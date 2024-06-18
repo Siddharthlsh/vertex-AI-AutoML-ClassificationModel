@@ -52,6 +52,16 @@ To assess a model with Vertex AI, you need a trained model, batch prediction out
 
 - Execute the model evaluation component independently or in conjunction with other pipeline components like batch prediction.
 
+
+![AdsDeploymentPipeline](https://github.com/Siddharthlsh/vertex-AI-AutoML-ClassificationModel/assets/71186052/58e8aeeb-c420-4dd7-aad3-cdade6058213)
+
+
+![EvaluationResults](https://github.com/Siddharthlsh/vertex-AI-AutoML-ClassificationModel/assets/71186052/569c4702-6ba9-498c-be34-e7a702b2e7ba)
+
+
+
+![PredictedResult](https://github.com/Siddharthlsh/vertex-AI-AutoML-ClassificationModel/assets/71186052/b9381a99-ae09-45dc-88b2-0c22884ca473)
+
 # How to Install this example
 	1. Clone this project
 	2. Set up Google Cloud Consolve
