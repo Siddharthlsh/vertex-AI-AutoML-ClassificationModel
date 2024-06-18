@@ -68,3 +68,10 @@ To assess a model with Vertex AI, you need a trained model, batch prediction out
 	3. Set up Vertex AI, enable all the plugins
 	4. Make sure in Google cloud , your service account have all the permissions
 The necessary permissions are: 
+Make sure your default Compute Engine service account has the following IAM permissions:
+
+Vertex AI Administrator (aiplatform.admin)
+Vertex AI Service Agent (aiplatform.serviceAgent)
+Storage Object Admin (storage.objectAdmin)
+Dataflow Worker (dataflow.worker)
+BigQuery Data Editor (bigquery.dataEditor) (only required if you are providing data in the form of BigQuery tables)
